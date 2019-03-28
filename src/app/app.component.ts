@@ -7,6 +7,15 @@ import {CdkDragDrop, moveItemInArray, transferArrayItem} from '@angular/cdk/drag
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+
+  numbers: number[] = [];
+
+  constructor() {
+    for (let index = 0; index < 10000; index++) {
+      this.numbers.push(index);
+    }
+  }
+
   todos = [
     {
       name: 'Angular',

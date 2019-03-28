@@ -9,10 +9,21 @@
   border-color:black;
   border-style: ridge;
   width: 20%;
-  padding-top: 0px;
+  padding-top: 15px;
   padding-bottom: 0px;
 }
 
 .list mat-card mat-card-title {
   font-family: 'Times New Roman', Times, serif;
+}
+
+.listVirtualScroll li {
+  padding: 25px;
+  width: 2%;
+  background: #FAFAAF;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
 }
